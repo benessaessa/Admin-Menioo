@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width"/>
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Nunito|Open+Sans&display=swap" rel="stylesheet">
+</head>
+<body>
+<!--***************** Start NAV BAR **************************-->
+<nav class="navbar navbar-expand-md fixed-top">
+  <a class="navbar-brand" href="index.html"><img src="imgs/menologo.png" width="100"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"><i class="fa fa-bars"></i></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+     <div class="dropdown create">
+            <a href="venue.html">CLASSIC'S OHIO</a> &nbsp; <i class="fas fa-caret-down"></i>
+      </div>
+    <ul class="navbar-nav m-auto middle-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="waiter.html">Waiters</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="tables.html">Tables</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="devices.html">Devices</a>
+          </li>
+           <li class="nav-item">
+            <a class="nav-link" href="midifiers.html">Modifiers</a>
+          </li>
+    </ul>
+     
+     <ul class="navbar-nav ml-auto last-nav">
+         <li class="nav-item">
+            <a class="nav-link" href="index.html" data-toggle="modal" data-target="#parccode"><i class="fas fa-qrcode"></i> Scan QR Code</a>
+          </li>
+          
+          <li class="nav-item">
+            <a class="nav-link" href="index.html"><i class="fas fa-play"></i> Live Preview</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html"></a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <img src="imgs/avatar-icon-png-8.jpg" width="20" height="20"> Welcome, user
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="configer.html"><i class="fas fa-wrench"></i> App Config</a>
+              <a class="dropdown-item" href="localization.html"><i class="fas fa-globe"></i> Localization</a>
+              <a class="dropdown-item" href="appconflig.html"><i class="fas fa-cog"></i> Account Setting</a>
+              <a class="dropdown-item" href="#"><i class="fas fa-info-circle"></i> Support</a>
+              <a class="dropdown-item" href="login.html"><i class="fas fa-sign-out-alt"></i> Logout</a>
+            </div>
+          </li>
+    </ul>
+  </div>
+</nav> 
+    <!-- Modal bar code -->
+<div class="modal fade" id="parccode" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+ <br><br><br><br>
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header import-head-modal">
+       <h4 style="padding-bottom: 0px !important;"><b>SCAN QR CODE</b></h4>
+      </div>
+      <div class="modal-body create-menu-import">
+          <div class="text-center">
+              <img src="imgs/ParCode.png" width="40%">
+          </div><br>
+         <div class="create-inp" style="width: 250px; margin: auto;">
+           <label for="">Email Address</label>
+           <b style="padding-left: 5px;">info@flavoursco.com</b>
+           <br><br>
+           <label for="">Branch ID</label><br>
+           <b style="padding-left: 5px;">12537</b>
+         </div>
+      </div><br>
+    </div>
+  </div>
+</div>
+<!--    MODEL  --> 
+    <!--***************** END NAV BAR **************************-->
+<!--***************** Start Content **************************-->
+<div class="fixed-menu">
+   <i class="fas fa-angle-left"></i>
+    <ul>
+        <li class="liactive"><a href="index.html"><img src="imgs/dashicon.png" width="30" height="30" alt=""> Dashboard</a></li>
+        <li><a href="menus.html"><img src="imgs/menuicon.png" width="30" height="30"> Menus</a></li>
+        <li><a href="design.html"><img src="imgs/designicon.png" width="30" height="30"> Design</a></li>
+        <li><a href="order.html"><img src="imgs/ordericon.png" width="30" height="30"> Orders</a></li>
+        <li><a href="feedback.html"><img src="imgs/feedbackicon.png" width="30" height="30"> Feedback</a></li>
+        <li><a href="compag.html"><img src="imgs/campaignicon.png" width="30" height="30"> Campaigns</a></li>
+    </ul>
+</div>
+<!--***************** Start Content **************************-->
+    <br><br><br>
+<div class="content">
+<div class="container">
+    <div class="row row-title">
+        <div class="col-md-6 text-left"><h6>Dashboard</h6></div>
+        <div class="col-md-6 text-right"><label>Date:</label> <input type="date"></div>
+    </div>
+    <div class="row row-columm">
+        <div class="col-md-3">
+            <h6>Connected Devices</h6>
+            <div class="img text-center">
+                <div class="chart" data-percent="70" data-scale-color="#ffb400"><strong>7</strong>/10</div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <div class="row">
+                <div class="col-md-12">
+                    <h6>134</h6>
+                    <p>Open Survey Results</p>
+                </div>
+                <div class="col-md-12">
+                    <h6>2</h6>
+                    <p>Running Campaigns</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-3">
+            <h6>10</h6>
+            <br><br><br>
+            <p>Open Orders</p>
+        </div>
+    </div> 
+    <div class="row last-row">
+        <div class="col-md-12">
+            <h6>Total Orders This Week</h6>
+            <canvas id="myChart"></canvas>
+        </div>
+    </div>  
+</div>      
+</div> 
+<!--***************** Start Top View **************************-->   
+<div class="top-view">
+<div class="container">
+   <div class="row">
+       <div class="col-md-6 col-5">
+           <h5 class="sm">Top Viewed Items</h5>
+       </div>
+       <div class="col-md-6 col-7 text-right">
+           <span>Sort by</span> &nbsp;&nbsp;
+           <select>
+               <option value="">Top Viewed</option>
+               <option value="">Top Viewed</option>
+               <option value="">Top Viewed</option>
+           </select>
+       </div>
+   </div>
+   <div class="row">
+       <div class="col-md-8 col-11">
+           <div class="row">
+               <div class="col-md-2 col-3">
+                   <div class="top-view-image">
+                       <img src="imgs/cake.png" width="100%">
+                   </div>
+               </div>
+               <div class="col-md-10 col-9 top-view-text">
+                   <h6>Molten Cake</h6>
+                   <small>Full of chocalate with a scoup of vannilla ice cream.</small>
+               </div>
+           </div>
+       </div>
+       <div class="col-md-4 col-1 text-right">
+           <span class="num"><b>58</b></span>
+       </div>
+   </div>
+   <div class="row">
+       <div class="col-md-8 col-11">
+           <div class="row">
+               <div class="col-md-2 col-3">
+                   <div class="top-view-image">
+                       <img src="imgs/cake2.png" width="100%">
+                   </div>
+               </div>
+               <div class="col-md-10 col-9 top-view-text">
+                   <h6>Cheese Cake</h6>
+                   <small>A classic made with our own special touch!.</small>
+               </div>
+           </div>
+       </div>
+       <div class="col-md-4 col-1 text-right">
+           <span class="num"><b>46</b></span>
+       </div>
+   </div>
+   <div class="row">
+       <div class="col-md-8 col-11">
+           <div class="row">
+               <div class="col-md-2 col-3">
+                   <div class="top-view-image">
+                       <img src="imgs/cake3.png" width="100%">
+                   </div>
+               </div>
+               <div class="col-md-10 col-9 top-view-text">
+                   <h6>Eclair</h6>
+                   <small>A french classic! we  have not re-invented the wheel but we have perfectedit.</small>
+               </div>
+           </div>
+       </div>
+       <div class="col-md-4 col-1 text-right">
+           <span class="num"><b>45</b></span>
+       </div>
+   </div>
+   <div class="row">
+       <div class="col-md-8 col-11">
+           <div class="row">
+               <div class="col-md-2 col-3">
+                   <div class="top-view-image">
+                       <img src="imgs/cake4.png" width="100%">
+                   </div>
+               </div>
+               <div class="col-md-10 col-9 top-view-text">
+                   <h6>Original Monterey Chicken</h6>
+                   <small>A Classic American dish that will Keep getting you back to Oak Bay. Two grilled breastsm tapped with beef bacanm, and tomatoes</small>
+               </div>
+           </div>
+       </div>
+       <div class="col-md-4 col-1 text-right">
+           <span class="num"><b>41</b></span>
+       </div>
+   </div>
+   <div class="row">
+       <div class="col-md-8 col-11">
+           <div class="row">
+               <div class="col-md-2 col-3">
+                   <div class="top-view-image">
+                       <img src="imgs/cake5.png" width="100%">
+                   </div>
+               </div>
+               <div class="col-md-10 col-9 top-view-text">
+                   <h6>Shrimp Konafa</h6>
+                   <small>When east meets west! Fried marinated shrimp ralled in oriental konafa threads served with Thai sweet chili sause</small>
+               </div>
+           </div>
+       </div>
+       <div class="col-md-4 col-1 text-right">
+           <span class="num"><b>2</b></span>
+       </div>
+   </div>
+   <div class="row">
+       <div class="col-md-8 col-11">
+           <div class="row">
+               <div class="col-md-2 col-3">
+                   <div class="top-view-image">
+                       <img src="imgs/cake6.png" width="100%">
+                   </div>
+               </div>
+               <div class="col-md-10 col-9 top-view-text">
+                   <h6>Greek Salad</h6>
+                   <small>A glimpse from Grece!&nbsp;;Mix of Greek feta chesse, red lettuce, cherry tomatoes, onions, colored peppers and cuccumber.</small>
+               </div>
+           </div>
+       </div>
+       <div class="col-md-4 col-1 text-right">
+           <span class="num"><b>2</b></span>
+       </div>
+   </div>
+</div>
+</div> 
+<!--***************** Donut GRaph View **************************-->
+<div class="donut">
+<div class="container">
+<div class="row">
+    <div class="col-md-6">
+<!--
+       canvas
+        <canvas id="mycanvas"></canvas>
+-->
+      <h5>Revenue Share</h5>
+      <div class="smll" style="margin-top: -10px;">
+          <small>Revenue Share Between sections</small>
+      </div>
+      <br>
+      <img src="imgs/pauntchart.png" width="100%" alt="">
+    </div>
+    <div class="col-md-6">
+        <div class="row">
+            <div class="col-md-8 col-8"><h5>Ticket Closed</h5></div>
+            <div class="col-md-4 col-4 text-right">20</div>
+        </div>
+        <div class="row">
+            <div class="col-md-8 col-8"><h5>Items Served</h5></div>
+            <div class="col-md-4 col-4 text-right">120</div>
+        </div>
+        <div class="row">
+            <div class="col-md-8 col-8"><h5>Revenue</h5></div>
+            <div class="col-md-4 col-4 text-right">EGP1500</div>
+        </div>
+        <div class="row">
+            <div class="col-md-8 col-8"><h5>Avg Ticket Size</h5></div>
+            <div class="col-md-4 col-4 text-right">Medium</div>
+        </div>
+        <div class="row">
+            <div class="col-md-8 col-8"><h5>Avg Ticket Time</h5></div>
+            <div class="col-md-4 col-4 text-right">12 Day</div>
+        </div>
+    </div>
+</div>
+</div>
+</div>
+       
+          
+                 
+                      
+                           
+                                
+                                     
+                                          
+                                               
+                                                    
+                                                         
+                                                              
+                                                                   
+                                                                        
+                                                                                  
+        
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>   
+    <script src="js/jquery.easypiechart.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.js"></script>    
+    <script>
+        let myChart = document.getElementById('myChart').getContext('2d');
+        let massPopChart = new Chart(myChart, {
+            type:'bar',
+            data:{
+                labels:['Sun', 'Mon', 'Tue', 'Wen', 'Thu', 'Fri', 'Sat'],
+                datasets:[{
+                    label:'Population',
+                    data:[
+                        153060,
+                        181045,
+                        617594,
+                        106519,
+                        105162,
+                        105162,
+                        95072
+                    ],
+                    backgroundColor:'#ce00ff',
+                    borderWidth:1,
+                    borderColor:'#fff',
+                    hoverBorderWidth:2,
+                    hoverBorderColor:'#fff'
+                }]
+            },
+            option:{
+                legend:{
+                    display:false,
+                }
+            }
+        });
+    </script> 
+        
+</body>
+</html>

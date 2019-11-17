@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<!--***************** Start NAV BAR **************************-->
+<nav class="navbar navbar-expand-md fixed-top">
+  <a class="navbar-brand" href="index.html">TheLEAN</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+   <div class="dropdown create">
+          <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="background-color: transparent">
+            CLASSIC'S OHIO
+          </button>
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <a class="dropdown-item" href="#"><i class="fas fa-file-alt"></i> Add Page </a>
+            <a class="dropdown-item" href="#"><i class="fas fa-pencil-alt"></i> Add Post</a>
+            <a class="dropdown-item" href="#"><i class="fas fa-user"></i> Add User</a>
+          </div>
+      </div>
+    <ul class="navbar-nav m-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="pages.html">Waiters</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="posts.html">Tables</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="users.html">Devices</a>
+          </li>
+           <li class="nav-item">
+            <a class="nav-link" href="users.html">Modifiers</a>
+          </li>
+    </ul>
+     
+     <ul class="navbar-nav ml-auto">
+         <li class="nav-item">
+            <a class="nav-link" href="index.html"><i class="fas fa-qrcode"></i> Scan QR Code</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html"><i class="fas fa-play"></i> Live Preview</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html"><img src="imgs/avatar-icon-png-8.jpg" width="20" height="20"> Welcome, user</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="login.html">Logout</a>
+          </li>
+    </ul>
+  </div>
+</nav> 
+    <!--***************** END NAV BAR **************************-->
+<!--***************** Start Content **************************-->
+<div class="fixed-menu">
+   <i class="fas fa-angle-left"></i>
+    <ul>
+        <li><a href="index.html"><i class="fas fa-house-damage"></i> Dashboard</a></li>
+        <li class="liactive"><a href="menus.html"><i class="fab fa-affiliatetheme"></i> Menus</a></li>
+        <li><a href="#"><i class="fab fa-asymmetrik"></i> Design</a></li>
+        <li><a href="#"><i class="fas fa-atom"></i> Orders</a></li>
+        <li><a href="#"><i class="fab fa-audible"></i> Feedback</a></li>
+        <li><a href="#"><i class="fab fa-accusoft"></i> Campaigns</a></li>
+    </ul>
+</div>
+    <!--***************** Start Content **************************-->
+    <br><br><br>
+<div class="content">
+<div class="container">
+    <div class="row row-title">
+        <div class="col-md-12 text-left">
+            &ang; Classic's Menus &nbsp; &nbsp;
+        </div>
+        <div class="col-md-6 text-left"><h6>Main Courses</h6></div>
+        <div class="col-md-6 text-right">
+        <button class="btn btn-primary"><a href="#">EDIT</a></button>
+        </div>
+    </div>
+    <div class="row menus-fBox">
+      <div class="col-md-6">
+          <label>Menu Name</label>
+          <h6>Classic's Menus</h6>
+          <br>
+          <label>Description</label>
+          <h6>Served all day</h6>
+          <br>
+          <div class="row">
+              <div class="col-md-6">
+                  <label>Display As</label>
+                    <h6>Grid</h6>
+              </div>
+              <div class="col-md-6 text-right">
+                  <label># Of colum</label>
+                    <h6>3</h6>
+              </div>
+          </div>
+          <br>
+          <label>Grid View Title</label>
+          <h6>Top</h6>
+          <div class="row">
+              <div class="col-md-6">
+                  <p>Display Similar Items</p>
+                  <small>Display Similar Items</small>
+              </div>
+              <div class="col-md-6 text-right">
+                  <input type="checkbox">
+              </div>
+          </div>
+          <div class="row">
+              <div class="col-md-6">
+                  <span>Mark Menus as New</span>
+                  &nbsp; <input type="checkbox">
+              </div>
+              <div class="col-md-6 text-right">
+                  <span>Mark Menus as New</span>
+                  &nbsp; <input type="checkbox">
+              </div>
+          </div>
+          <br>
+            <p>Add Additional Notes</p>
+            <h6>Add 12% Service and 14% VAT</h6>
+      </div>
+       <div class="col-md-6">
+           <div class="box-img">
+                <a href="#"><img src="imgs/classic2.png" width="100%"></a>
+            </div>
+       </div>
+      
+    </div>  
+    
+</div>      
+</div>  
+    
+        
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>            
+</body>
+</html>

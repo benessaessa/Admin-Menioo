@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width"/>
+    <title>Create - Campaign - </title>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<!--***************** Start NAV BAR **************************-->
+<nav class="navbar navbar-expand-md fixed-top">
+  <a class="navbar-brand" href="index.html"><img src="imgs/menologo.png" width="100"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"><i class="fa fa-bars"></i></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+     <div class="dropdown create">
+            <a href="venue.html">CLASSIC'S OHIO</a> &nbsp; <i class="fas fa-caret-down"></i>
+      </div>
+    <ul class="navbar-nav m-auto middle-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="waiter.html">Waiters</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="tables.html">Tables</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="devices.html">Devices</a>
+          </li>
+           <li class="nav-item">
+            <a class="nav-link" href="midifiers.html">Modifiers</a>
+          </li>
+    </ul>
+     
+     <ul class="navbar-nav ml-auto last-nav">
+         <li class="nav-item">
+            <a class="nav-link" href="index.html" data-toggle="modal" data-target="#parccode"><i class="fas fa-qrcode"></i> Scan QR Code</a>
+          </li>
+          
+          <li class="nav-item">
+            <a class="nav-link" href="index.html"><i class="fas fa-play"></i> Live Preview</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html"></a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <img src="imgs/avatar-icon-png-8.jpg" width="20" height="20"> Welcome, user
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="configer.html"><i class="fas fa-wrench"></i> App Config</a>
+              <a class="dropdown-item" href="localization.html"><i class="fas fa-globe"></i> Localization</a>
+              <a class="dropdown-item" href="appconflig.html"><i class="fas fa-cog"></i> Account Setting</a>
+              <a class="dropdown-item" href="#"><i class="fas fa-info-circle"></i> Support</a>
+              <a class="dropdown-item" href="login.html"><i class="fas fa-sign-out-alt"></i> Logout</a>
+            </div>
+          </li>
+    </ul>
+  </div>
+</nav> 
+    <!-- Modal bar code -->
+<div class="modal fade" id="parccode" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+ <br><br><br><br>
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header import-head-modal">
+       <h4 style="padding-bottom: 0px !important;"><b>SCAN QR CODE</b></h4>
+      </div>
+      <div class="modal-body create-menu-import">
+          <div class="text-center">
+              <img src="imgs/ParCode.png" width="40%">
+          </div><br>
+         <div class="create-inp" style="width: 250px; margin: auto;">
+           <label for="">Email Address</label>
+           <b style="padding-left: 5px;">info@flavoursco.com</b>
+           <br><br>
+           <label for="">Branch ID</label><br>
+           <b style="padding-left: 5px;">12537</b>
+         </div>
+      </div><br>
+    </div>
+  </div>
+</div>
+<!--    MODEL  -->   
+    <!--***************** END NAV BAR **************************-->
+<!--***************** Start Content **************************-->
+<div class="fixed-menu">
+   <i class="fas fa-angle-left"></i>
+    <ul>
+        <li><a href="index.html"><img src="imgs/dashicon.png" width="30" height="30" alt=""> Dashboard</a></li>
+        <li><a href="menus.html"><img src="imgs/menuicon.png" width="30" height="30"> Menus</a></li>
+        <li><a href="design.html"><img src="imgs/designicon.png" width="30" height="30"> Design</a></li>
+        <li><a href="order.html"><img src="imgs/ordericon.png" width="30" height="30"> Orders</a></li>
+        <li><a href="feedback.html"><img src="imgs/feedbackicon.png" width="30" height="30"> Feedback</a></li>
+        <li><a href="compag.html"><img src="imgs/campaignicon.png" width="30" height="30"> Campaigns</a></li>
+    </ul>
+</div>
+    <!--***************** Start Content **************************-->
+    <br><br><br>
+<div class="content">
+<div class="container">
+    <div class="row row-title">
+        <div class="col-md-6 text-left"><h6>Classic's Ohie</h6></div>
+        <div class="col-md-6 text-right">
+            <button class="btn btn-primary"><a href="venueedit.html"> EDIT</a></button>
+        </div>
+    </div>
+    <div class="row menus-fBox" style="padding-left: 10px">
+        <div class="col-md-6">
+            <div class="create-inp">
+                <label for="">Venue Name</label>
+                <h6>Classic's Ohie</h6>
+                
+            </div>
+            <div class="create-inp">
+                <label for="">Description</label>
+                <h6>Eye the beholder! A flavorful cut of our juicy rip eye hand <br>chopped on order. Served with English style backed patato <br>and sauteed broccoli.</h6>
+            </div>
+        </div>
+        <div class="col-md-6 text-right">
+            <img src="imgs/venue.png">
+            <br>
+        </div> 
+        <div class="col-md-12">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="create-inp">
+                        <label for="">Regios</label>
+                        <h6>United States</h6>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="create-inp">
+                        <label for="">Timezone</label>
+                        <h6>Eastern Daylight Time</h6>
+                    </div>
+                </div>
+            </div>
+        </div>    
+    </div>
+    <br>
+</div>      
+</div>  
+    
+        
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>            
+</body>
+</html>
