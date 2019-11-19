@@ -69,3 +69,31 @@
     border-bottom: 2px solid white;
     color: white;
 }
+
+/* ============================================ items ============================ */
+.designPreview h6{
+    color: #888686;
+    font-size: 12px;
+}
+.designPreview{
+    background-color: white;
+}
+.designPreview p{
+    font-size: 12px;
+    font-weight: 500;
+}
+.list-group-horizontal .list-group-item{
+    padding: 5px 2px;
+    font-size: 12px;
+    font-weight: 600;
+    color: white;
+    /* border-radius: 5px 0px;  */
+    background-color: #CE00FF;
+}
+.smallText{
+    font-size: 12px;
+}
+.cardItem{
+    background: none;
+    border: none;
+}
