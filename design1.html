@@ -47,14 +47,14 @@
     border-radius: 9px;
     cursor: pointer;
 }
-.
+
 .cardPreview .card-img-top{
     border-radius: 9px 9px 0px 0px;
 }
 
 .cardPreview a{
     color: black;
-    font-size: 11px;
+    font-size: 7px;
     padding-left: .1rem;
     font-weight:650;
     text-decoration: none;
@@ -91,36 +91,6 @@
     color: white;
 }
 
-/* ============================================ items ============================ */
-.designPreview h6{
-    color: #888686;
-    font-size: 8px;
-}
-.designPreview{
-    background-color: white;
-}
-.designPreview p{
-    font-size: 8px;
-    font-weight: 500;
-}
-.list-group-horizontal .list-group-item{
-    padding: 5px 2px;
-    font-size: 12px;
-    font-weight: 600;
-    color: white;
-    /* border-radius: 5px 0px;  */
-    background-color: #CE00FF;
-}
-.smallText{
-    font-size: 12px;
-}
-.compo p{
-  font-size: 7px;
-}
-.cardItem{
-    background: none;
-    border: none;
-}
     </style>
 </head>
 <body>
@@ -318,136 +288,91 @@
        <div class="col-md-6">
            <div class="row">
              <div class="col-12">
-              <div class="container tabletShow">
-                <img src="images/tablet.png" height="400px" width="100%">
-                <div class="content">
-                    <nav class="navbar navbar-light bg-light hed">
-                        <ul class="navbar-nav">
-                            <li class="nav-item active">
-                                <a class="nav-link text-white" href="#"><i class="fa fa-arrow-left"></i> Back </a>
-                            </li>
-                        </ul>
-                        <ul class="navbar-nav mx-auto">
-                            <li class="nav-item pb-2">
-                                <a class="nav-link" href="#"><img src="images/logo.png" height="15px"></a>
-                            </li>
-                        </ul>
-                        <ul class="navbar-nav">
-                            <!-- <li class="nav-item">
-                                <a class="nav-link text-white" href="#"><i class="fa fa-search"></i> Search</a>
-                            </li> -->
-                            <li class="nav-item">
-                                <a class="nav-link text-white" href="#"><img src="images/cart.svg" class="mt-0" height="13px">
-                                    <span class="pt-2">ITEMS</span></a>
-                            </li>
-                        </ul>
-                    </nav>
-                    <div class="container p-0">
-                        <div class="row">
-                            <div class="col-lg-8 col-8">
-                                <div class="designPreview p-3">
-                                    <h5>Butter Basted Steak</h5>
-                                    <div class="row pb-2 pt-2 hedDesign">
-                                        <div class="col-4">
-                                            <h6><i class="fa fa-snowflake"></i> 190 Calories</h6>
-                                        </div>
-                                        <div class="col-4">
-                                            <h6><i class="fa fa-weight"></i> 300 grams</h6>
-                                        </div>
-                                        <div class="col-4">
-                                            <h6><i class="fa fa-clock"></i> 20 Minutes</h6>
-                                        </div>
-                                    </div>
-                                    <p>Summer is often synonymous with beaches, ballparks and barbecues, all offering tempting
-                                        snacks and treats.</p>
-                                    <h6><i class="fa fa-exclamation-triangle"></i> Including Nuts <span
-                                            class="ml-3">Gluten-free</span></h6>
-                                    <div class="row">
-                                        <div class="col-5 compo">
-                                            <div class="row pt-2">
-                                                <div class="col-6">
-                                                    <p class="text-muted mb-0">SAVER</p>
-                                                    <p>EGP 190</p>
+                <div class="container tabletShow">
+                    <img src="images/tablet.png" alt="Notebook" style="width:100%;height: 406px;">
+                    <div class="content">
+                        <nav class="navbar navbar-light bg-light hed">
+                            <ul class="navbar-nav">
+                                <li class="nav-item active">
+                                    <a class="nav-link text-white" href="#"><i class="fa fa-exclamation-circle"></i> About</a>
+                                </li>
+                            </ul>
+                            <ul class="navbar-nav mx-auto">
+                                <li class="nav-item pb-2">
+                                    <a class="nav-link" href="#"><img src="images/logo.png" height="25px"></a>
+                                </li>
+                            </ul>
+                            <ul class="navbar-nav">
+                                <!-- <li class="nav-item">
+                                    <a class="nav-link text-white" href="#"><i class="fa fa-search"></i> Search</a>
+                                </li> -->
+                                <li class="nav-item">
+                                    <a class="nav-link text-white" href="#"><i class="fa fa-comments"></i> FeedBack</a>
+                                </li>
+                            </ul>
+                        </nav>
+                        <div class="container pt-3">
+                            <h6 class="pb-2">Classic's Menus</h6>
+                            <div class="row">
+                                <div class="col-lg-4 col-4">
+                                    <div class="card cardPreview">
+                                        <img class="card-img-top" height="50px" src="images/breakfast.jpg" alt="Card image">
+                                        <div class="card-body pt-0 pb-1 px-1">
+                                            <div class="row">
+                                                <div class="col-lg-6 col-6">
+                                                    <a href="#">Breakfast</a>
                                                 </div>
-                                                <div class="col-6">
-                                                    <p class="text-muted mb-0">COMPO</p>
-                                                    <p>200</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-7">
-                                            <!-- <ul class="list-group list-group-horizontal pt-3">
-                                                <li class="list-group-item border-right-0"
-                                                    style="border-radius:20px 0px 0px 20px">
-                                                    <img src="images/minus.svg"> &nbsp; 1 &nbsp;
-                                                    <img src="images/add.svg">
-                                                </li>
-                                                <li class="list-group-item px-3 border-left-0"
-                                                    style="border-radius:0px 20px 20px 0px">
-                                                    ADD <img src="images/cart.svg" height="14px"></li>
-                                            </ul> -->
-                                        </div>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-6">
-                                            <div class="card cardPreview">
-                                                <img class="card-img-top" height="40px" src="images/breakfast.jpg"
-                                                    alt="Card image">
-                                                <div class="card-body pt-0 pb-1 px-1">
-                                                    <div class="row">
-                                                        <div class="col-12">
-                                                            <a href="#">Piza</a>
-                                                            <p class="mb-1">Sometext Here Sometext </p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-                                        <div class="col-6">
-                                            <div class="card cardPreview">
-                                                <img class="card-img-top" height="40px" src="images/breakfast.jpg"
-                                                    alt="Card image">
-                                                <div class="card-body pt-0 pb-1 px-1">
-                                                    <div class="row">
-                                                        <div class="col-12">
-                                                            <a href="#">Piza</a>
-                                                            <p class="mb-1">Sometext Here Sometext</p>
-                                                        </div>
-                                                    </div>
+                                                <div class="col-lg-6 col-6">
+                                                    <a href="#"><img src="images/icon.svg" width="15px"
+                                                            class="float-right pt-2"></a>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="col-4 pl-0">
-                                <div class="pl-0">
-                                    <img class="mt-2" height="70px" width="98%" src="images/brunch.jpg" alt="Card image">
-                                    <p class="text-muted text-center pt-2" style="font-size:12px">SERVED WITH</p>
-                                    <div class="row">
-                                        <div class="col-6 pr-1">
-                                            <div class="card cardItem">
-                                                <img height="50px" src="images/breakfast.jpg"
-                                                    alt="Card image">
-                                                <div class="card-body pt-0 pb-1 px-1">
-                                                    <div class="row">
-                                                        <div class="col-12">
-                                                            <p class="pt-1 text-muted text-center smallText">French Fries</p>
-                                                        </div>
-                                                    </div>
+                                <div class="col-lg-4 col-4">
+                                    <div class="card cardPreview">
+                                        <img class="card-img-top" height="50px" src="images/brunch.jpg" alt="Card image">
+                                        <div class="card-body pt-0 pb-1 px-1">
+                                            <div class="row">
+                                                <div class="col-lg-6 col-6">
+                                                    <a href="#">Brunch</a>
+                                                </div>
+                                                <div class="col-lg-6 col-6">
+                                                    <a href="#"><img src="images/icon.svg" width="15px"
+                                                            class="float-right pt-2"></a>
                                                 </div>
                                             </div>
                                         </div>
-                                        <div class="col-6 pl-1">
-                                            <div class="card cardItem pr-1">
-                                                <img height="50px" src="images/breakfast.jpg"
-                                                    alt="Card image">
-                                                <div class="card-body pt-0 pb-1 px-1">
-                                                    <div class="row">
-                                                        <div class="col-12">
-                                                            <p class="pt-1 text-muted text-center smallText">Piza</p>
-                                                        </div>
-                                                    </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-4">
+                                    <div class="card cardPreview">
+                                        <img class="card-img-top" height="50px" src="images/dinner.jpg" alt="Card image">
+                                        <div class="card-body pt-0 pb-1 px-1">
+                                            <div class="row">
+                                                <div class="col-lg-6 col-6">
+                                                    <a href="livePreview.html">Dinner</a>
+                                                </div>
+                                                <div class="col-lg-6 col-6">
+                                                    <a href="#"><img src="images/icon.svg" width="15px"
+                                                            class="float-right pt-2"></a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4 col-4 pt-3">
+                                    <div class="card cardPreview">
+                                        <img class="card-img-top" height="50px" src="images/cofe.jpg" alt="Card image">
+                                        <div class="card-body pt-0 pb-1 px-1">
+                                            <div class="row">
+                                                <div class="col-lg-6 col-6">
+                                                    <a href="#">Cafe</a>
+                                                </div>
+                                                <div class="col-lg-6 col-6">
+                                                    <a href="#"><img src="images/icon.svg" width="15px"
+                                                            class="float-right pt-2"></a>
                                                 </div>
                                             </div>
                                         </div>
@@ -457,7 +382,6 @@
                         </div>
                     </div>
                 </div>
-            </div>
              </div>
            </div>
            <br><br>
