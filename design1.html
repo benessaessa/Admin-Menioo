@@ -2,11 +2,126 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width"/>
+    <!-- <meta name="viewport" content="width=device-width"/> -->
     <title>Design - Home</title>
     <link rel="stylesheet" href="css/all.min.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
+    <style>
+      .hed{
+    background: linear-gradient(to right, #CE00FF, rgb(5, 103, 231));
+}
+.card-body p,.card-body a{
+  font-size: 8px;
+}
+.tabletShow {
+    position: relative;
+    /* width: 900px; */
+    margin: 0 auto;
+}
+ 
+.hedDesign h6{
+  font-size: 8px;
+}
+
+.designPreview h5{
+  font-size: 12px;
+}
+.tabletShow img {vertical-align: middle;}
+  
+.tabletShow .content {
+    position: absolute;
+    top: 2rem;
+    right: 2.5rem;
+    height: 21rem;
+    left: 3.5rem;
+    overflow: hidden;
+    background-color: #f1f1f1;
+    /* width: 76%; */
+    padding: 0px;
+}
+
+.cardPreview{
+    color: black;
+    box-shadow: 0 6px 20px 0 rgba(82, 76, 67, 0.2);
+    border-radius: 9px;
+    cursor: pointer;
+}
+.
+.cardPreview .card-img-top{
+    border-radius: 9px 9px 0px 0px;
+}
+
+.cardPreview a{
+    color: black;
+    font-size: 11px;
+    padding-left: .1rem;
+    font-weight:650;
+    text-decoration: none;
+}
+.cardPreview p{
+    font-size: 10px;
+    color:#888686 !important;
+    font-weight: bold;
+}
+.content h6,.content p{
+    color: black;
+}
+
+.content .navbar .nav-link{
+    font-size: 9px !important;
+}
+
+.arrow{
+    color: rgba(184, 8, 219, 0.795);
+}
+
+.navHead .nav-item{
+    padding: .01rem 1.5rem;
+}
+.navHead .nav-item .nav-link{
+    color: rgb(206, 206, 206);
+    text-transform: uppercase;
+    font-weight: 500;
+    letter-spacing: .1rem;
+}
+
+.navHead .nav-item .active{
+    border-bottom: 2px solid white;
+    color: white;
+}
+
+/* ============================================ items ============================ */
+.designPreview h6{
+    color: #888686;
+    font-size: 8px;
+}
+.designPreview{
+    background-color: white;
+}
+.designPreview p{
+    font-size: 8px;
+    font-weight: 500;
+}
+.list-group-horizontal .list-group-item{
+    padding: 5px 2px;
+    font-size: 12px;
+    font-weight: 600;
+    color: white;
+    /* border-radius: 5px 0px;  */
+    background-color: #CE00FF;
+}
+.smallText{
+    font-size: 12px;
+}
+.compo p{
+  font-size: 7px;
+}
+.cardItem{
+    background: none;
+    border: none;
+}
+    </style>
 </head>
 <body>
 <!--***************** Start NAV BAR **************************-->
@@ -201,7 +316,150 @@
            </div>
        </div>
        <div class="col-md-6">
-           <img src="imgs/Design1.png" width="100%" alt="">
+           <div class="row">
+             <div class="col-12">
+              <div class="container tabletShow">
+                <img src="images/tablet.png" height="400px" width="100%">
+                <div class="content">
+                    <nav class="navbar navbar-light bg-light hed">
+                        <ul class="navbar-nav">
+                            <li class="nav-item active">
+                                <a class="nav-link text-white" href="#"><i class="fa fa-arrow-left"></i> Back </a>
+                            </li>
+                        </ul>
+                        <ul class="navbar-nav mx-auto">
+                            <li class="nav-item pb-2">
+                                <a class="nav-link" href="#"><img src="images/logo.png" height="15px"></a>
+                            </li>
+                        </ul>
+                        <ul class="navbar-nav">
+                            <!-- <li class="nav-item">
+                                <a class="nav-link text-white" href="#"><i class="fa fa-search"></i> Search</a>
+                            </li> -->
+                            <li class="nav-item">
+                                <a class="nav-link text-white" href="#"><img src="images/cart.svg" class="mt-0" height="13px">
+                                    <span class="pt-2">ITEMS</span></a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="container p-0">
+                        <div class="row">
+                            <div class="col-lg-8 col-8">
+                                <div class="designPreview p-3">
+                                    <h5>Butter Basted Steak</h5>
+                                    <div class="row pb-2 pt-2 hedDesign">
+                                        <div class="col-4">
+                                            <h6><i class="fa fa-snowflake"></i> 190 Calories</h6>
+                                        </div>
+                                        <div class="col-4">
+                                            <h6><i class="fa fa-weight"></i> 300 grams</h6>
+                                        </div>
+                                        <div class="col-4">
+                                            <h6><i class="fa fa-clock"></i> 20 Minutes</h6>
+                                        </div>
+                                    </div>
+                                    <p>Summer is often synonymous with beaches, ballparks and barbecues, all offering tempting
+                                        snacks and treats.</p>
+                                    <h6><i class="fa fa-exclamation-triangle"></i> Including Nuts <span
+                                            class="ml-3">Gluten-free</span></h6>
+                                    <div class="row">
+                                        <div class="col-5 compo">
+                                            <div class="row pt-2">
+                                                <div class="col-6">
+                                                    <p class="text-muted mb-0">SAVER</p>
+                                                    <p>EGP 190</p>
+                                                </div>
+                                                <div class="col-6">
+                                                    <p class="text-muted mb-0">COMPO</p>
+                                                    <p>200</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-7">
+                                            <!-- <ul class="list-group list-group-horizontal pt-3">
+                                                <li class="list-group-item border-right-0"
+                                                    style="border-radius:20px 0px 0px 20px">
+                                                    <img src="images/minus.svg"> &nbsp; 1 &nbsp;
+                                                    <img src="images/add.svg">
+                                                </li>
+                                                <li class="list-group-item px-3 border-left-0"
+                                                    style="border-radius:0px 20px 20px 0px">
+                                                    ADD <img src="images/cart.svg" height="14px"></li>
+                                            </ul> -->
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-6">
+                                            <div class="card cardPreview">
+                                                <img class="card-img-top" height="40px" src="images/breakfast.jpg"
+                                                    alt="Card image">
+                                                <div class="card-body pt-0 pb-1 px-1">
+                                                    <div class="row">
+                                                        <div class="col-12">
+                                                            <a href="#">Piza</a>
+                                                            <p class="mb-1">Sometext Here Sometext </p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-6">
+                                            <div class="card cardPreview">
+                                                <img class="card-img-top" height="40px" src="images/breakfast.jpg"
+                                                    alt="Card image">
+                                                <div class="card-body pt-0 pb-1 px-1">
+                                                    <div class="row">
+                                                        <div class="col-12">
+                                                            <a href="#">Piza</a>
+                                                            <p class="mb-1">Sometext Here Sometext</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-4 pl-0">
+                                <div class="pl-0">
+                                    <img class="mt-2" height="70px" width="98%" src="images/brunch.jpg" alt="Card image">
+                                    <p class="text-muted text-center pt-2" style="font-size:12px">SERVED WITH</p>
+                                    <div class="row">
+                                        <div class="col-6 pr-1">
+                                            <div class="card cardItem">
+                                                <img height="50px" src="images/breakfast.jpg"
+                                                    alt="Card image">
+                                                <div class="card-body pt-0 pb-1 px-1">
+                                                    <div class="row">
+                                                        <div class="col-12">
+                                                            <p class="pt-1 text-muted text-center smallText">French Fries</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="col-6 pl-1">
+                                            <div class="card cardItem pr-1">
+                                                <img height="50px" src="images/breakfast.jpg"
+                                                    alt="Card image">
+                                                <div class="card-body pt-0 pb-1 px-1">
+                                                    <div class="row">
+                                                        <div class="col-12">
+                                                            <p class="pt-1 text-muted text-center smallText">Piza</p>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+             </div>
+           </div>
            <br><br>
                <div>
                    <p>Info Button Background Color</p>
